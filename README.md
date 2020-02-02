@@ -11,8 +11,6 @@ With Aamu.app and Gatsby you can connect your favorite static site generator wit
 ## Features
 
 * Simple content model and structure. Easy to adjust to your needs.
-* Aamu.app integration using our [Sync API](https://aamu.app/developers/docs/references/content-delivery-api/#/reference/synchronization/initial-synchronization-of-entries-of-a-specific-content-type)
-* Using our [Delivery API](https://aamu.app/developers/docs/references/content-delivery-api/).
 * Responsive/adaptive images via [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/)
 
 ## Contribution
