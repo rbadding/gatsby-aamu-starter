@@ -21,7 +21,7 @@ This project is part of [AamuApp](https://github.com/AamuApp) which means that w
 
 ## Requirements
 
-To use this project you have to have a Aamu.app account. If you don't have one yet you can register at [aamu.app/sign-up](https://aamu.app/sign-up/).
+To use this project you have to have a Aamu.app account. If you don't have one yet you can register at [aamu.app](https://aamu.app/).
 
 ## Getting started
 
