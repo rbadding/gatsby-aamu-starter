@@ -2,7 +2,7 @@
 
 Gatsby [Aamu.app](https://aamu.app) starter for creating a blog
 
-![The index page of the starter blog](https://rawgit.com/AamuApp/gatsby-aamu-starter/master/screenshot.jpg "The index page of the starter blog")
+![The index page of the starter blog](https://raw.githubusercontent.com/AamuApp/gatsby-aamu-starter/master/screenshot.jpg "The index page of the starter blog")
 
 Static sites are scalable, secure and have very little required maintenance. They come with a drawback though. Not everybody feels good editing files, building a project and uploading it somewhere. This is where Aamu.app comes into play.
 
@@ -73,4 +73,4 @@ Removes all dependencies, scripts and data from the installation script.
 
 ## Other resources
 
-- Tutorial video series ["Building a blazing fast website with GatsbyJS and Aamu.app"](https://www.youtube.com/watch?v=Ek4o40w1tH4&list=PL8KiuH6vpACV-F7jXribe4YveGBhBeG9A) by @Khaledgarbaya
+- Tutorial video series ["Building a blazing fast website with GatsbyJS and Contentful"](https://www.youtube.com/watch?v=Ek4o40w1tH4&list=PL8KiuH6vpACV-F7jXribe4YveGBhBeG9A) by @Khaledgarbaya
