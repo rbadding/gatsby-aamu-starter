@@ -37,7 +37,7 @@ module.exports = {
       options: {
         fieldName: `aamu`,
         typeName: `Aamu`,
-        url: `https://ile.aamu.app/api/v1/graphql/`,
+        url: process.env.AAMU_HOST,
         headers: {
           "x-api-key": process.env.AAMU_API_KEY
         },
