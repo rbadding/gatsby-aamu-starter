@@ -1,6 +1,4 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
-})
+require('dotenv').config();
 
 const AAMU_HOST = 'https://api.aamu.app/api/v1/graphql/';
 
@@ -19,7 +17,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/public/images`,
+        path: `${__dirname}/public/static`,
       },
     },
     {

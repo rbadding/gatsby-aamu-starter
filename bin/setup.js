@@ -1,4 +1,3 @@
-const exportFile = require('../contentful/export.json')
 const inquirer = require('inquirer')
 const chalk = require('chalk')
 const path = require('path')
@@ -35,7 +34,7 @@ inquirer
     key = AAMU_API_KEY || argv.key || key
 
     console.log('Writing config file...')
-    const configFiles = [`.env.development`, `.env.production`]
+    const configFiles = [`.env`]
       .map(file => path.join(__dirname, '..', file))
 
     const fileContents = [
