@@ -1,7 +1,7 @@
 {
   "name": "gatsby-aamu-starter",
   "description": "Aamu.app Starter Gatsby Blog",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Stefan Judis <stefanjudis@gmail.com>",
   "bugs": {
     "url": "https://github.com/AamuApp/gatsby-aamu-starter/issues"
