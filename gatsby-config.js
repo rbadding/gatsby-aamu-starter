@@ -2,12 +2,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`
 })
 
-const config = {
-  accessToken: process.env.AAMU_API_KEY,
-  host: process.env.AAMU_HOST
-}
-
-const { accessToken } = config
+const AAMU_HOST = 'https://api.aamu.app/api/v1/graphql/';
 
 if (!accessToken) {
   throw new Error(
@@ -21,6 +16,7 @@ module.exports = {
   },
   pathPrefix: '/gatsby-contentful-starter',
   plugins: [
+    `gatsby-plugin-netlify-cache`,
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
@@ -37,7 +33,7 @@ module.exports = {
       options: {
         fieldName: `aamu`,
         typeName: `Aamu`,
-        url: process.env.AAMU_HOST,
+        url: AAMU_HOST,
         headers: {
           "x-api-key": process.env.AAMU_API_KEY
         },
