@@ -5,8 +5,6 @@ const { writeFileSync } = require('fs')
 
 const argv = require('yargs-parser')(process.argv.slice(2))
 
-const AAMU_HOST = 'https://api.aamu.app/api/v1/graphql/';
-
 console.log(`
   To set up this project you need to provide your Aamu API url
   and the Aamu API key.
@@ -41,7 +39,6 @@ inquirer
       `# All environment variables will be sourced`,
       `# and made available to gatsby-config.js, gatsby-node.js, etc.`,
       `# Do NOT commit this file to source control`,
-      `AAMU_HOST='${AAMU_HOST}'`,
       `AAMU_API_KEY='${key}'`
     ].join('\n') + '\n'
 
