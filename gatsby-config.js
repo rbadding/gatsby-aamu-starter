@@ -4,12 +4,6 @@ require('dotenv').config({
 
 const AAMU_HOST = 'https://api.aamu.app/api/v1/graphql/';
 
-if (!accessToken) {
-  throw new Error(
-    'Aamu.app access token needs to be provided.'
-  )
-}
-
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Contentful starter',
